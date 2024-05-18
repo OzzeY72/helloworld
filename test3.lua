@@ -1,3 +1,3 @@
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
-Player:kick("You have been banned on Roblox servers")
+Player:Move(Vector3.new(0, 0, 0),false)
